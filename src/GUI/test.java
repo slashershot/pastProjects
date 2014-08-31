@@ -57,7 +57,8 @@ public class test extends Application {
     }
     @FXML
     void SubmitButtonHandler(ActionEvent event){
-		DocHandler.extract(file1,null);
+		DocHandler doc = new DocHandler();
+		doc.extract(file1, file2);
     }
 
 }
