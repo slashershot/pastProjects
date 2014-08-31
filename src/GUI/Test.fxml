@@ -16,7 +16,7 @@
             <Label layoutX="68.0" layoutY="121.0" text="Excel File:" />
             <TextField fx:id="textfield2" editable="false" layoutX="135.0" layoutY="117.0" prefHeight="25.0" prefWidth="285.0" />
             <Button fx:id="browseBtn1" layoutX="439.0" layoutY="117.0" mnemonicParsing="false" onAction="#ButtonHandler1" text="Browse..." />
-            <Button layoutX="252.0" layoutY="281.0" mnemonicParsing="false" text="Submit" />
+            <Button fx:id="submitBtn" layoutX="252.0" layoutY="281.0" mnemonicParsing="false" onAction="#SubmitButtonHandler" text="Submit" />
          </children>
       </Pane>
    </children>

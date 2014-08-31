@@ -16,13 +16,15 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 public class test extends Application {
+	//javafx variables
+    public Button browseBtn;
+    public TextField textfield1;
+    public TextField textfield2;
+    public Button browseBtn1;
+    public Button submitBtn;
+    //end of javafx variables
 	private File file1;
 	private File file2;
-    @FXML
-    private Button browseBtn;
-    private TextField textfield1;
-    private TextField textfield2;
-    private Button browseBtn1;
     private Stage primaryStage;
 	@Override
 	public void start(Stage stage) throws IOException {
@@ -54,8 +56,8 @@ public class test extends Application {
     	textfield2.setText(file2.getAbsolutePath());
     }
     @FXML
-    void ButtonHandler2(ActionEvent event){
-		DocHandler extractor = new DocHandler(file1,file2);
+    void SubmitButtonHandler(ActionEvent event){
+		DocHandler.extract(file1,null);
     }
 
 }
