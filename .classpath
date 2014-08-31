@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="var" path="Extractors/lib/commons-codec-1.5.jar"/>
+	<classpathentry kind="var" path="Extractors/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="var" path="Extractors/lib/junit-4.11.jar"/>
+	<classpathentry kind="var" path="Extractors/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="var" path="Extractors/poi-3.10.1-20140818.jar"/>
+	<classpathentry kind="var" path="Extractors/poi-examples-3.10.1-20140818.jar"/>
+	<classpathentry kind="var" path="Extractors/poi-excelant-3.10.1-20140818.jar"/>
+	<classpathentry kind="var" path="Extractors/poi-ooxml-3.10.1-20140818.jar"/>
+	<classpathentry kind="var" path="Extractors/poi-ooxml-schemas-3.10.1-20140818.jar"/>
+	<classpathentry kind="var" path="Extractors/poi-scratchpad-3.10.1-20140818.jar"/>
+	<classpathentry kind="var" path="Extractors/ooxml-lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="var" path="Extractors/ooxml-lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="var" path="Extractors/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
