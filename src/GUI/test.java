@@ -2,8 +2,8 @@ package GUI;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 
-import Logic.DocHandler;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -14,6 +14,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import Logic.DocHandler;
+import Logic.ThreadsHandler;
 
 public class test extends Application {
 	//javafx variables
@@ -57,8 +59,9 @@ public class test extends Application {
     }
     @FXML
     void SubmitButtonHandler(ActionEvent event){
-		DocHandler doc = new DocHandler();
-		doc.extract(file1, file2);
+    	ThreadsHandler stuff = new ThreadsHandler(file1,file2);
+    	System.out.println(stuff.stuff);
+    	System.out.println(stuff.stuff1);
     }
 
 }
