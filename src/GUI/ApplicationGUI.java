@@ -2,8 +2,6 @@ package GUI;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -14,10 +12,9 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-import Logic.DocHandler;
 import Logic.ThreadsHandler;
 
-public class test extends Application {
+public class ApplicationGUI extends Application {
 	//javafx variables
     public Button browseBtn;
     public TextField textfield1;
