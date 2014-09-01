@@ -60,7 +60,7 @@ public class test extends Application {
     @FXML
     void SubmitButtonHandler(ActionEvent event){
     	ThreadsHandler stuff = new ThreadsHandler(file1,file2);
-    	System.out.println(stuff.stuff);
+    	//System.out.println(stuff.stuff);
     	System.out.println(stuff.stuff1);
     }
 

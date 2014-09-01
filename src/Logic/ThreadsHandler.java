@@ -10,6 +10,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
@@ -59,5 +60,16 @@ public class ThreadsHandler {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		excutor.shutdownNow();
+	    try {
+			if (!excutor.awaitTermination(100, TimeUnit.MICROSECONDS)) {
+			    System.out.println("Still waiting...");
+			    System.exit(0);
+			}
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	    System.out.println("Exiting normally...");
 	}
 }
