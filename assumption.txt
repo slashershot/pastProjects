@@ -15,3 +15,7 @@ then implements smarter error returns so the user knows what exactly went wrong
 then fix it so the user doesnt have to do shit
 
 shorten my code and make it reusable
+
+make it more LEGIBLE I CANT BARELY READ MY OWN CODE WTF!?
+
+fully implement blitz

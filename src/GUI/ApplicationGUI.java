@@ -59,8 +59,6 @@ public class ApplicationGUI extends Application {
     @FXML
     void SubmitButtonHandler(ActionEvent event){
     	ThreadsHandler stuff = new ThreadsHandler(file1,file2);
-    	EntityCreation create = new EntityCreation(stuff.stuff1);
-    	create.sort();
     }
 
 }
