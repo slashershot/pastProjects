@@ -66,6 +66,7 @@ public class ThreadsHandler {
 	    	EntityCreation create = new EntityCreation(stuff1);
 	    	create.sort();
 			excelHandle.writeToSheet0(create.getSchool());
+			excelHandle.writeToSheet1(create.getMembers());
 			
 		} catch (InterruptedException | ExecutionException e) {
 			// TODO Auto-generated catch block

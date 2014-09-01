@@ -15,6 +15,7 @@ public class EntityCreation {
 	String teamID;
 	String chess;
 	String teamCategory;
+	ArrayList<Open_Member> members;
 	public EntityCreation(ArrayList<Object> object){
 		obj = object;
 	}
@@ -36,7 +37,7 @@ public class EntityCreation {
 					chess = (details[6].toString());
 			}else if(head.equals("Open")){
 				String[][] openTeam = ((String[][])((Object[])obj.get(i))[1]);
-				ArrayList<Open_Member> members = new ArrayList<Open_Member>(); 
+				 members = new ArrayList<Open_Member>(); 
 				//starts from row 1 
 				for(int j=1;openTeam.length>j;j++){
 					Open_Member member = new Open_Member();
@@ -61,7 +62,9 @@ public class EntityCreation {
 						member.setCategory(teamCategory);
 						member.setChess(chess);
 					}
+					if(member.getName()!=null){
 					members.add(member);
+					}
 				}
 			}else if(head.equals("Blitz")){
 				
@@ -70,6 +73,9 @@ public class EntityCreation {
 	}
 	public Schools getSchool(){
 		return school_details;
+	}
+	public ArrayList<Open_Member> getMembers(){
+		return members;
 	}
 	
 
