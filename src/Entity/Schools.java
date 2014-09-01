@@ -19,6 +19,9 @@ public class Schools {
 		Num_Team = num_Team;
 		Total_Cost = total_Cost;
 	}
+	public Schools(){
+		
+	}
 	public String getSchool_Name() {
 		return School_Name;
 	}

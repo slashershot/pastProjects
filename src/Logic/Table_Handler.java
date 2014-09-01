@@ -36,26 +36,36 @@ public class Table_Handler implements Callable<ArrayList<Object>>{
 			String text = "";
 			//amount of cells is header row
 			int headerSize = header.getTableCells().size();
+			int size = ((ArrayList<XWPFTableRow>)objArr.get(i)).size();
+			String[][] tableArr = new String[size][headerSize];
 			if(headerSize==6){
 				//calls a method(gettablecells) that takes in this tablerow and returns all table cells
-				for(int k=0; ((ArrayList<XWPFTableRow>)objArr.get(i)).size()>k;k++){
+				for(int k=0; size>k;k++){
 				for(int j=0; headerSize>j;j++){
 					text = (getTableCells(((ArrayList<XWPFTableRow>)objArr.get(i)).get(k)).get(j).getText());
-					if(text.isEmpty()==false){
-						System.out.println(text);
+					if(!text.isEmpty()||!(text==null)){
+						if(text.equals("")){
+							
+						}
+						tableArr[k][j] = text;
+						//System.out.println(tableArr[k][j]);
 					}
 				}
 				}
+				stuff.add( new Object[]{"Open",tableArr});
 			}else if(headerSize==7){
 				//calls a method(gettablecells) that takes in this tablerow and returns all table cells
-				for(int k=0; ((ArrayList<XWPFTableRow>)objArr.get(i)).size()>k;k++){
+				for(int k=0; size>k;k++){
 				for(int j=0; headerSize>j;j++){
 					text = (getTableCells(((ArrayList<XWPFTableRow>)objArr.get(i)).get(k)).get(j).getText());
-					if(text.isEmpty()==false){
-						System.out.println(text);
+					if(text!=null){
+						tableArr[k][j] = text;
+						//System.out.println(tableArr[k][j]);
+
 					}
 				}
 				}
+				stuff.add( new Object[]{"Blitz",tableArr});
 			}else{
 				System.out.println("Exception error,Table recognized");
 			}

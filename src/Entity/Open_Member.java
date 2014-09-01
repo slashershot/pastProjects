@@ -2,7 +2,7 @@ package Entity;
 
 public class Open_Member {
 	private String School_Name;//required
-	private int Team_ID;//required
+	private String Team_ID;//required
 	private String Name;//required
 	private String NRIC;//required
 	private String Shirt_Size;//required
@@ -11,7 +11,7 @@ public class Open_Member {
 	private String Player_Pos;//required
 	private String Category;//required
 	private String Chess;//required
-	public Open_Member(String school_Name, int team_ID, String name,
+	public Open_Member(String school_Name, String team_ID, String name,
 			String nRIC, String shirt_Size, int contact, String email,
 			String player_Pos, String category, String chess) {
 		super();
@@ -26,16 +26,19 @@ public class Open_Member {
 		Category = category;
 		Chess = chess;
 	}
+	public Open_Member(){
+		
+	}
 	public String getSchool_Name() {
 		return School_Name;
 	}
 	public void setSchool_Name(String school_Name) {
 		School_Name = school_Name;
 	}
-	public int getTeam_ID() {
+	public String getTeam_ID() {
 		return Team_ID;
 	}
-	public void setTeam_ID(int team_ID) {
+	public void setTeam_ID(String team_ID) {
 		Team_ID = team_ID;
 	}
 	public String getName() {

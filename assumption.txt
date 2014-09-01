@@ -2,3 +2,16 @@ Anyone can join blitz even without a school
 
 Able to handle only 2 variables per line max(buggy)
 One line per variable at the moment
+Recreate the encapsulation for school_details in entitycreation
+
+THERE IS A FUCKING ITERATOR WHY THE FUCK DID YOU REINVENT THE WHEEL YOU DUMB POS
+
+rewrite the whole application to support multiple tables
+
+then implements smarter boundry tracking
+
+then implements smarter error returns so the user knows what exactly went wrong
+
+then fix it so the user doesnt have to do shit
+
+shorten my code and make it reusable

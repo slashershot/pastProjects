@@ -2,6 +2,7 @@ package GUI;
 
 import java.io.File;
 import java.io.IOException;
+
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -12,6 +13,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import Logic.EntityCreation;
 import Logic.ThreadsHandler;
 
 public class ApplicationGUI extends Application {
@@ -57,8 +59,8 @@ public class ApplicationGUI extends Application {
     @FXML
     void SubmitButtonHandler(ActionEvent event){
     	ThreadsHandler stuff = new ThreadsHandler(file1,file2);
-    	//System.out.println(stuff.stuff);
-    	System.out.println(stuff.stuff1);
+    	EntityCreation create = new EntityCreation(stuff.stuff1);
+    	create.sort();
     }
 
 }
