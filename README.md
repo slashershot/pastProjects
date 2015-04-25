@@ -17,6 +17,12 @@ I use MYSQL Workbench for database handling.
 1.File -> Import  -> Projects from Git -> Next
 
 2.Clone URI -> Next
-Protocol:git
-Host:slashershot
-Repository path:pastProjects
+>-Protocol:git
+
+>-Host:github.com/slashershot
+
+>-Repository path:pastProjects
+
+3.Untick master -> Next -> Choose your Import Directory -> Next -> Import Existing  Projects -> Next
+
+4.Tick all -> Finish
