@@ -26,3 +26,16 @@ I use MYSQL Workbench for database handling.
 3.Untick master -> Next -> Choose your Import Directory -> Next -> Import Existing  Projects -> Next
 
 4.Tick all -> Finish
+
+####Modifications Needed
+
+**MySQL Database**
+
+1.Double click the oop-project in MySQL WorkBench
+
+2.Enter the command:
+>select * from videos;
+
+3.Set the sourceDirectory to be the full path of the Test Video.
+
+
