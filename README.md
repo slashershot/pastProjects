@@ -12,7 +12,7 @@ I prefer Java over C# as I use Linux while my team members uses Mac and Windows.
 
 I am always in pursuit of an interesting topic to base my projects around.
 
-Interests:Anime,Manga,Programming,Penetration Testing,Basketball,Gaming
+In my past time, I'm learning new programming languages.
 
 I can be contacted at computer96186792@gmail.com
 
