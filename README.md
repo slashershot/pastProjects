@@ -1,9 +1,6 @@
 #Video Streaming Project
 
-A Java Based Streaming Application using vlcj.
-
 Tested Working on windows 8.1 64bit
-
 
 ###Installation Instructions:
 
@@ -54,5 +51,13 @@ Database Connection:
 
 1.Expand database -> DBManager
 
-2.
+2.Fill in the user and password for your database.
 
+Video Streaming Application:
+
+1.Expand Server -> videoStreaming
+
+Modify
+>C:/Users/Nigel/Desktop/Resume Items/Past Projects.(Archive)(backup)/Final Presentation Project 1.2/java lib/NEE
+
+to your NEE directory.
