@@ -61,3 +61,14 @@ Modify
 >C:/Users/Nigel/Desktop/Resume Items/Past Projects.(Archive)(backup)/Final Presentation Project 1.2/java lib/NEE
 
 to your NEE directory.
+
+Owari Da~
+
+Additional Comments:
+
+I got a Distinction for this project.
+
+It is a school project done in a group of 5.
+I wrote the backend server implementation,did the integration and wrote the video streaming portion.
+
+Take note that this application has loads of bugs. :\ Sorry about that.
