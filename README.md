@@ -1,6 +1,6 @@
-# pastProjects
+# Past Projects
 
-Hello, I am slashershot, a budding developer from Singapore.
+Hello, I am slashershot, a software developer from Singapore.
 
 I am currently enrolled in Nanyang Polytechnic,School of Information Technology.
 
