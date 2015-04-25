@@ -1,5 +1,10 @@
 #Video Streaming Project
 
+A Java Based Streaming Application using vlcj.
+
+Tested Working on windows 8.1 64bit
+
+
 ###Installation Instructions:
 
 ####Database Import:
@@ -38,4 +43,16 @@ I use MYSQL Workbench for database handling.
 
 3.Set the sourceDirectory to be the full path of the Test Video.
 
+**Eclipse**
+Dependencies:
+
+1.Right Click Project -> Properties -> Libraries -> Select All & Remove
+
+2.Add External JARs -> Select all JARs within java lib -> Select all JARs within NEE
+
+Database Connection:
+
+1.Expand database -> DBManager
+
+2.
 
