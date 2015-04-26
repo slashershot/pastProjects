@@ -1,5 +1,7 @@
 # Past Projects
 
+**Switch Branches to view my projects.**
+
 Hello, I am slashershot, a software developer from Singapore.
 
 I am currently enrolled in Nanyang Polytechnic,School of Information Technology.
