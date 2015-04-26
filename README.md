@@ -17,3 +17,5 @@ I am always in pursuit of an interesting topic to base my projects around.
 In my past time, I'm learning new programming languages.
 
 I can be contacted at computer96186792@gmail.com
+
+**Some of my projects are still in the progress of updating**
